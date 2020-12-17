@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.grid path,
+.grid line {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.25);
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2.5px;
+}
+</style>
+<head>
+    <!-- Content Type Meta tag -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!--Responsive Viewport Meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    
+    <title>Todo list app</title>
+    
+    <!-- Roboto font embed -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="button">Clear Cache</button>
+        <button class="button">Progress</button>
+    </div>
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <select>
+                <option value="-1">Select</option>
+            </select>
+        </div>
+    </section>
+    <div class="container">
+        <div id="division">
+            
+        </div>
+    </div>
+<script src="https://d3js.org/d3.v3.js"></script>
+<script type="text/javascript" src="js/script2.js"></script>
+<script type="text/javascript" src="js/script.js" ></script>
+</body>
+</html>
